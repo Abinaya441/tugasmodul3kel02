@@ -13,6 +13,15 @@
   }
 }
 
+.Button {
+  height: 60px;
+  width: 200px;
+  background-color: rgb(8, 236, 38);
+  border-radius: 10px;
+  font-size: 30px;
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,8 +36,6 @@
 .NavBar {
   width: 100%;
   background-color: rgb(88, 216, 216);
-  top: 0;
-  position: fixed;
 }
 
 .ul {
