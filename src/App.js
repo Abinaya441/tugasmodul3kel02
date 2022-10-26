@@ -11,13 +11,13 @@ function App() {
         <nav className="NavBar">
           <ul className="ul">
             <li className="li">
-              <Link to="/">1</Link>
+              <Link to="/">About</Link>
             </li>
             <li className="li">
-              <Link to="/dua">2</Link>
+              <Link to="/dua">Cek Nama</Link>
             </li>
             <li className="li">
-              <Link to="/tiga">3</Link>
+              <Link to="/tiga">Buat Kartu</Link>
             </li>
           </ul>
         </nav>
