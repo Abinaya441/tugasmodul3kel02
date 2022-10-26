@@ -1,4 +1,3 @@
-import './tiga.css';
 import { useState } from 'react';
 
 const App = () => {
@@ -15,7 +14,7 @@ const App = () => {
     return (
         <div>
             <h2>Angkanya Adalah {num}</h2>
-            <button onClick={handleClick}>Klik Untuk Mendapatkan Angka Random</button>
+            <button className="Button" onClick={handleClick}>Klik Untuk Mendapatkan Angka Random</button>
         </div>
     );
 };

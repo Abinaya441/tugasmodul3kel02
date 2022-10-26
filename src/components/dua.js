@@ -1,4 +1,3 @@
-import './satu.css';
 import logo from '../logo.svg';
 import data from './data.json';
 import React, { useState } from "react";
@@ -22,10 +21,10 @@ function Dua() {
                     }
                 }).map((post) => (
                     <div className="box" key={post.nim}>
-                        <table border={0}>
                             <div className="img-profile">
                             <img src={logo} className="App-logo" alt="logo" />
                             </div>
+                        <table border={0}>
                             <tr><td>Nama Lengkap</td> <td> - </td> <td>{post.nama_lengkap}</td> </tr>
                             <tr><td>Nama Panggilan</td> <td> - </td> <td>{post.nama_panggilan}</td> </tr>
                             <tr><td>No Telp.</td> <td> - </td> <td>{post.nomor_telepon}</td> </tr>
