@@ -24,7 +24,7 @@ function Dua() {
                     <div className="box" key={post.nim}>
                         <table border={0}>
                             <div className="img-profile">
-                               <img src={logo} className="App-logo" alt="logo" />
+                            <img src={logo} className="App-logo" alt="logo" />
                             </div>
                             <tr><td>Nama Lengkap</td> <td> - </td> <td>{post.nama_lengkap}</td> </tr>
                             <tr><td>Nama Panggilan</td> <td> - </td> <td>{post.nama_panggilan}</td> </tr>

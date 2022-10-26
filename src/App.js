@@ -17,7 +17,7 @@ function App() {
               <Link to="/dua">Cek Nama</Link>
             </li>
             <li className="li">
-              <Link to="/tiga">Buat Kartu</Link>
+              <Link to="/tiga">Roll Angka Random</Link>
             </li>
           </ul>
         </nav>
