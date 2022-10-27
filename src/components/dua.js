@@ -1,6 +1,7 @@
 import logo from '../logo.svg';
 import data from './data.json';
 import React, { useState } from "react";
+import "./components.css";
 
 function Dua() {
     const [pencarian, setSearchTerm] = useState("");
