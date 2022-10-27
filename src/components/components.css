@@ -1,0 +1,14 @@
+.TextArea {
+    font-size: larger;
+    width: fit-content;
+    height: fit-content;
+}
+
+.term {
+    font-size: larger;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
